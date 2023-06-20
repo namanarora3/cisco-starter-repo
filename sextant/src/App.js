@@ -17,7 +17,7 @@ function App() {
         <IPAddressDisplay ipv6={true} />
       </Exhibit>
 
-      <Exhibit heading="IPv6 Address">
+      <Exhibit heading="Network Latency">
         <LatencyDisplay/>
       </Exhibit>
     </div>
