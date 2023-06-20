@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Banner from './banner';
+import Exhibit from './Exhibit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          Welcome to React
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner title={"Sextant"} />
+      <Exhibit heading="Exhibit 1">
+        {/* Content or components to display */}
+      </Exhibit>
+      <Exhibit heading="Exhibit 2">
+        {/* Content or components to display */}
+      </Exhibit>
     </div>
   );
 }
